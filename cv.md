@@ -1,4 +1,4 @@
-![](/img/photo.jpg)
+![](/img/cv-git-photo.png)
 
 # **Viktor Kondratsiuk**
 
