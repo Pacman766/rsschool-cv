@@ -72,13 +72,13 @@ Intermediate – upper-intermediate (B1-B2)
 ```
 String.prototype.toJadenCase = function () {
 
-const arr = this.split(' ');
-for (let i = 0; i < arr.length; i++) {
-  arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
-}
+  const arr = this.split(' ');
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+  }
 
-const str2 = arr.join(' ');
-return str2;
+  const str2 = arr.join(' ');
+  return str2;
 };
 ```
 
@@ -88,9 +88,11 @@ return str2;
 
 Learning Frontend since august and the main thing that i understood - more practice, less theory!
 
-while(!dead) {  
- eat();  
- coffee();  
- code();  
- //sleep();  
-}
+```
+while(!dead) {
+  eat();
+  coffee();
+  code();
+  //sleep();
+ }
+```
