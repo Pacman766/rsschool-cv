@@ -41,10 +41,6 @@
 
 ---
 
-## Code:
-
----
-
 ## English:
 
 Intermediate – upper-intermediate (B1-B2)
@@ -85,6 +81,8 @@ const str2 = arr.join(' ');
 return str2;
 };
 ```
+
+---
 
 ## Summary:
 
