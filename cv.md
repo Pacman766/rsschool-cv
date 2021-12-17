@@ -88,11 +88,11 @@ return str2;
 
 ## Summary:
 
-Learning Frontend since august and main thing that i understood - more practice, less theory!
+Learning Frontend since august and the main thing that i understood - more practice, less theory!
 
-while(!dead) {
-eat();
-coffee();
-code();
-//sleep();
+while(!dead) {  
+ eat();  
+ coffee();  
+ code();  
+ //sleep();  
 }
