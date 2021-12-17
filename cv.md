@@ -69,7 +69,7 @@ Intermediate – upper-intermediate (B1-B2)
 
 ---
 
-## Example of my code from Codewars.com
+## Example of my code from Codewars.com:
 
 ### Capitalize 1st letter of each string
 
@@ -85,3 +85,14 @@ const str2 = arr.join(' ');
 return str2;
 };
 ```
+
+## Summary:
+
+Learning Frontend since august and main thing that i understood - more practice, less theory!
+
+while(!dead) {
+eat();
+coffee();
+code();
+//sleep();
+}
