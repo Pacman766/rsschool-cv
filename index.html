@@ -69,29 +69,36 @@
           <h2 class="section-title">contact:</h2>
           <ul>
             <li>
-              <a href="mailto:3334976@gmail.com" target="blank"
+              <a class="link" href="mailto:3334976@gmail.com" target="blank"
                 >E-mail: 3334976@gmail.com</a
               >
             </li>
             <li>
-              <a href="https://github.com/Pacman766" target="blank"
+              <a class="link" href="https://github.com/Pacman766" target="blank"
                 >Github: Viktor Kondratsiuk</a
               >
             </li>
             <li>
               <a
+                class="link"
                 href="https://www.linkedin.com/in/viktor-kondratsiuk/"
                 target="blank"
                 >LinkedIn: Viktor Kondratsiuk</a
               >
             </li>
             <li>
-              <a href="https://discordapp.com/users/Pacman#7917/" target="blank"
+              <a
+                class="link"
+                href="https://discordapp.com/users/Pacman#7917/"
+                target="blank"
                 >Discord: Viktor Kondratsiuk (@Pacman766)</a
               >
             </li>
             <li>
-              <a href="https://t.me/viktor_kondratsiuk" target="blank"
+              <a
+                class="link"
+                href="https://t.me/viktor_kondratsiuk"
+                target="blank"
                 >Telegram: @viktor_kondratsiuk</a
               >
             </li>
@@ -114,17 +121,24 @@
           <h2 class="section-title">projects:</h2>
           <ol>
             <li>
-              <a href="https://github.com/Pacman766/Food" target="blank"
+              <a
+                class="link"
+                href="https://github.com/Pacman766/Food"
+                target="blank"
                 >Proper nutrition site</a
               >
             </li>
             <li>
-              <a href="https://github.com/Pacman766/marvel" target="blank"
+              <a
+                class="link"
+                href="https://github.com/Pacman766/marvel"
+                target="blank"
                 >React project with Marvel API (in process)</a
               >
             </li>
             <li>
               <a
+                class="link"
                 href="https://github.com/Pacman766/employees_react"
                 target="blank"
                 >React project about accounting employees in the company</a
@@ -132,6 +146,7 @@
             </li>
             <li>
               <a
+                class="link"
                 href="https://github.com/Pacman766/HikingGuide-Bootstrap"
                 target="blank"
                 >A project where I repeated and tried what I had previously
@@ -141,7 +156,7 @@
           </ol>
         </section>
         <section class="section section-english" id="english">
-          <h2 class="section-title">english:</h2>
+          <h2 class="section-title">English:</h2>
           <p>Intermediate – upper-intermediate (B1-B2)</p>
         </section>
         <section class="section section-education" id="education">
@@ -158,6 +173,7 @@
             </li>
             <li>
               <a
+                class="link"
                 href="https://www.udemy.com/course/javascript_full/"
                 target="blank"
                 >Udemy: Full course JavaScript + React</a
@@ -165,13 +181,14 @@
             </li>
             <li>
               <a
+                class="link"
                 href="https://www.udemy.com/course/java-ot-zaura/"
                 target="blank"
                 >Udemy: JAVA – get the Black Belt!</a
               >
             </li>
             <li>
-              <a href="https://rs.school/" target="blank"
+              <a class="link" href="https://rs.school/" target="blank"
                 >Now learning RS-school</a
               >
             </li>
@@ -181,21 +198,84 @@
           <h2 class="section-title">experience:</h2>
           <p>
             2011 – 2021: logistics specialist. International cargo
-            transportation. Сommunication in english.
+            transportation. Сommunication in English.
           </p>
         </section>
         <section class="section section-code" id="code">
-          <h2 class="section-title">Example of my code from Codewars.com:</h2>
-          <p>Capitalize 1st letter of each string</p>
+          <h2 class="section-title codewars">
+            Example of my code from Codewars.com
+          </h2>
+          <p>Combine objects:</p>
+          <pre>
+            <code>
+              function combine(...objs) {
+                return objs.reduce((prev, next) => {
+                  for (let k in next) {
+                    if (next.hasOwnProperty(k)) {
+                      prev[k] = (prev[k] || 0) + next[k];
+                    }
+                  }
+                  return prev;
+                }, {});
+              }
+            </code>
+          </pre>
+
           <code> </code>
         </section>
         <section class="section section-summary" id="summary">
           <h2 class="section-title">summary:</h2>
+          <p>
+            Learning Frontend since august and the main thing that i understood
+            - more practice, less theory!
+          </p>
+          <pre>
+          <code>
+            while(!dead) {
+              eat();
+              coffee();
+              code();
+              //sleep();
+             }
+          </code>
+        </pre>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container container-footer">
+        <div>
+          <p>© 2021 by Viktor Kondratsiuk</p>
+        </div>
+        <ul class="footer-links">
+          <li>
+            <a
+              class="icon-github-circled"
+              href="https://github.com/Pacman766"
+              target="blank"
+            ></a>
+          </li>
+          <li>
+            <a
+              class="icon-linkedin-squared"
+              href="https://www.linkedin.com/in/viktor-kondratsiuk/"
+              target="blank"
+            ></a>
+          </li>
+          <li>
+            <a
+              class="rsschool-logo"
+              href="https://rs.school/js/"
+              target="blank"
+            >
+              <img
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="rs_school"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
