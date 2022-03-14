@@ -12,32 +12,41 @@
 ## Contact:
 
 - E-mail: [3334976@gmail.com](3334976@gmail.com)
-- Github: [Viktor Kondratsiuk](https://github.com/Pacman766)
 - LinkedIn: [Viktor Kondratsiuk](https://www.linkedin.com/in/viktor-kondratsiuk)
 - Discord: Viktor Kondratsiuk (@Pacman766)
 - Telegram: [@viktor_kondratsiuk](https://t.me/viktor_kondratsiuk)
+- Codewars: [Pacman766](https://www.codewars.com/users/Pacman766)
 
 ---
 
 ## Skills:
 
-- HTML
-- CSS
-- JS
-- Now learning React
-- GitHub
-- Bootstrap
-- basic skills in Sass
-- basic skills in Java
+ - HTML
+ - CSS (SCSS/SASS/LESS)
+ - JavaScript
+ - React, React Hooks, Redux
+ - Bootstrap 
+ - Babel
+ - Webpack 
+ - API
+ - OOP
+ - Git / Github
+ - now learning and develop project with Hooks in React. 
+
+## Software:
+ - Figma
+ -Photoshop
 
 ---
 
 ## Projects:
 
 1. [Proper nutrition site](https://github.com/Pacman766/Food)
-2. [React project with Marvel API (in process)](https://github.com/Pacman766/marvel)
-3. [React project about accounting employees in the company](https://github.com/Pacman766/employees_react)
-4. [A project where I repeated and tried what I had previously learned](https://github.com/Pacman766/HikingGuide-Bootstrap)
+2. [React project with Marvel API](https://github.com/Pacman766/marvel)
+3. [Landing photographer portfolio web-site](https://github.com/Pacman766/portfolio)
+4. [React project about accounting employees in the company](https://github.com/Pacman766/employees_react)
+5. [Codewars algorithm tasks](https://www.codewars.com/users/Pacman766)
+6. [GitHub repository](https://github.com/Pacman766)
 
 ---
 
@@ -52,16 +61,15 @@ Intermediate – upper-intermediate (B1-B2)
 - 1994-2005 school with intensive study of english
 - 2005-2011: Belarusian National Technical University. Manager-economist
 - 2020 (with interruptions): Java
-- August 2021 – now: HTML, CSS, JS, React, GitHub, Bootstrap, Sass
-- Udemy: Full course JavaScript + React
+- August 2021 – now: HTML, CSS (Sass, SCSS), JavaScript, React (React Hooks, Redux) GitHub, Bootstrap, API, NPM, Webpack
 - Udemy: JAVA – get the Black Belt!
-- Now learning RS-school
+- Now learning in The Rolling Scopes School / JS / Front-end (https://rs.school/)
 
 ---
 
 ## Experience:
 
-2011 – 2021: logistics specialist. International cargo transportation. Сommunication in english.
+2011 – 2021: logistics specialist. International cargo transportation. Сommunication in English.
 
 ---
 
@@ -86,7 +94,7 @@ String.prototype.toJadenCase = function () {
 
 ## Summary:
 
-Learning Frontend since august and the main thing that i understood - more practice, less theory!
+With diligence and love have been learning front-end for 7+ months. Have experience in development, using adaptive, cross-browser, valid layout, development using React and API. 
 
 ```
 while(!dead) {
