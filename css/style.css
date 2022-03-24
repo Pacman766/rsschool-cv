@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #c9d1d9;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: yellow;
+  transition: 0.8s ease;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.link:hover::after {
+  width: 60%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0d1117;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #c9d1d9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 30px;
+  line-height: 50px;
+}
+
+.profile-photo {
+  border-radius: 50%;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-title {
+  position: relative;
+  font-family: 'Syne', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 50%;
+  height: 5px;
+  background: #afb1b363;
+}
+
+.profession::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 5px;
+  background: #afb1b363;
+}
+
+.birth::after {
+  width: 0;
+}
+
+.codewars::after {
+  top: 90px;
+}
+
+.name-surname {
+  position: relative;
+  letter-spacing: 7px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.name-surname::after {
+  position: absolute;
+  content: '';
+  top: 70px;
+  left: 190px;
+  width: 250px;
+  height: 2px;
+  background: #afb1b363;
+}
+
+.birth {
+  font-size: 18px;
+  padding-top: 50px;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer-links img {
+  width: 50%;
+}
+
+.icon-linkedin-squared {
+  width: 100%;
+}
